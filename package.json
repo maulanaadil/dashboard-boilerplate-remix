@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.10.1",
+    "@emotion/css": "^11.10.0",
+    "@emotion/react": "^11.10.0",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fontsource/inter": "^4.5.12",
+    "@remix-run/node": "^1.6.7",
+    "@remix-run/react": "^1.6.7",
+    "@remix-run/vercel": "^1.6.7",
+    "@vercel/node": "^2.4.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.6.7",
+    "@remix-run/eslint-config": "^1.6.7",
+    "@remix-run/serve": "^1.6.7",
+    "@types/react": "^17.0.47",
+    "@types/react-dom": "^17.0.17",
+    "eslint": "^8.21.0",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
