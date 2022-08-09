@@ -1,4 +1,5 @@
 import { Paragraph, Heading, SubHead } from '~/typography'
+import { Button } from '~/components'
 
 export default function Index() {
     return (
@@ -8,6 +9,16 @@ export default function Index() {
                 test paragrapgh
             </Paragraph>
             <SubHead type='subhead5'>test subhead</SubHead>
+            <Button
+                size='s'
+                variant='primary'
+                onClick={() => {
+                    console.log('anjay')
+                }}
+                type='button'
+            >
+                Button test
+            </Button>
             <ul>
                 <li>
                     <a

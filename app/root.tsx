@@ -7,6 +7,7 @@ import {
     Scripts,
     ScrollRestoration,
 } from '@remix-run/react'
+import { AnimatePresence } from 'framer-motion'
 
 export const meta: MetaFunction = () => ({
     charset: 'utf-8',
@@ -23,7 +24,9 @@ export default function App() {
                 {typeof document === 'undefined' ? '__STYLES__' : null}
             </head>
             <body>
-                <Outlet />
+                <AnimatePresence exitBeforeEnter>
+                    <Outlet />
+                </AnimatePresence>
                 <ScrollRestoration />
                 <Scripts />
                 <LiveReload />
