@@ -1,4 +1,4 @@
-import { Paragraph, Heading } from '~/typography'
+import { Paragraph, Heading, SubHead } from '~/typography'
 
 export default function Index() {
     return (
@@ -7,6 +7,7 @@ export default function Index() {
             <Paragraph weight='Bold' variant='p1'>
                 test paragrapgh
             </Paragraph>
+            <SubHead type='subhead5'>test subhead</SubHead>
             <ul>
                 <li>
                     <a
