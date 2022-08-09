@@ -1,9 +1,12 @@
-import { css } from '@emotion/css'
+import { Paragraph, Heading } from '~/typography'
 
 export default function Index() {
     return (
         <div className={``}>
-            <h1>Welcome to Remix</h1>
+            <Heading type='h1'>Welcome to Remix</Heading>
+            <Paragraph weight='Bold' variant='p1'>
+                test paragrapgh
+            </Paragraph>
             <ul>
                 <li>
                     <a
