@@ -1,11 +1,11 @@
-import { Heading } from '~/typography'
 import { Outlet } from '@remix-run/react'
+import { Header } from '~/layout'
 
 export default function AppRoute() {
     return (
-        <div className={``}>
-            <Heading type='h1'>Navigation + header + footer here</Heading>
+        <>
+            <Header title='Home' subtitle='This is Homepage' />
             <Outlet />
-        </div>
+        </>
     )
 }
