@@ -1,11 +1,10 @@
 import { Outlet } from '@remix-run/react'
-import { Header } from '~/layout'
+import PageWrapper from '~/layout/pagewrapper'
 
 export default function AppRoute() {
     return (
-        <>
-            <Header title='Home' subtitle='This is Homepage' />
+        <PageWrapper>
             <Outlet />
-        </>
+        </PageWrapper>
     )
 }

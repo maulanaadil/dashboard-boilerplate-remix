@@ -1,3 +1,3 @@
 export default function IndexRoute() {
-    return <div>etst</div>
+    return <div>Home</div>
 }
