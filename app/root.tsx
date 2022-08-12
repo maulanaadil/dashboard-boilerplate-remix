@@ -1,4 +1,3 @@
-import type { MetaFunction } from '@remix-run/node'
 import {
     Links,
     LiveReload,
@@ -7,12 +6,7 @@ import {
     Scripts,
     ScrollRestoration,
 } from '@remix-run/react'
-
-export const meta: MetaFunction = () => ({
-    charset: 'utf-8',
-    title: 'New Remix App',
-    viewport: 'width=device-width,initial-scale=1',
-})
+import { AnimatePresence } from 'framer-motion'
 
 export default function App() {
     return (
@@ -23,7 +17,9 @@ export default function App() {
                 {typeof document === 'undefined' ? '__STYLES__' : null}
             </head>
             <body>
-                <Outlet />
+                <AnimatePresence exitBeforeEnter>
+                    <Outlet />
+                </AnimatePresence>
                 <ScrollRestoration />
                 <Scripts />
                 <LiveReload />

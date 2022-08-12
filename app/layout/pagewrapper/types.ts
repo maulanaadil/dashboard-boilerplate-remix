@@ -1,7 +1,5 @@
 import type { ReactNode } from 'react'
 
-type ParagraphProps = {
+export type PageWrapperProps = {
     children: ReactNode
 }
-
-export default ParagraphProps

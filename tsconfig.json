@@ -12,6 +12,9 @@
         "allowJs": true,
         "forceConsistentCasingInFileNames": true,
         "baseUrl": ".",
+        "jsxImportSource": "@emotion/react",
+        "incremental": true,
+        "skipLibCheck": true,
         "paths": {
             "~/*": ["./app/*"]
         },
