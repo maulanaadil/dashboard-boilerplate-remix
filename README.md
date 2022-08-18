@@ -1,26 +1,28 @@
-# Welcome to Remix!
+# Background
+This template basically is for dashboard purposed only, Here is the first design view for this template.
 
-- [Remix Docs](https://remix.run/docs)
+![image](https://user-images.githubusercontent.com/59109741/185454503-819a1308-4838-4e2f-b3ea-ba147902b1cb.png)
 
-## Deployment
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
+## Requirements
+Your `Node` must be last version or version 16++
 
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
-
-```sh
-npm i -g vercel
-vercel
+## Stack
+```js
+  REMIXJS for base Framework 🚀
+  Emotion for Styling 💅
+  Framer for Animation ✨
 ```
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
-
-## Development
-
-To run your Remix app locally, make sure your project's local dependencies are installed:
-
+## How to used
+clone this project
 ```sh
-npm install
+git clone https://github.com/maulanaadil/dashboard-boilerplate-remix.git
+```
+
+then install package modules using *npm*
+```sh
+  npm install
 ```
 
 Afterwards, start the Remix development server like so:
