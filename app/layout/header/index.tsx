@@ -17,6 +17,7 @@ export default function Header({
     title,
     subtitle,
     className,
+    username,
     ...otherProps
 }: HeaderProps) {
     return (
@@ -35,7 +36,7 @@ export default function Header({
                 </Paragraph>
             </motion.div>
             <Link to='/' className={sAccountWrapper}>
-                <Account account />
+                <Account account username={username} />
             </Link>
         </div>
     )

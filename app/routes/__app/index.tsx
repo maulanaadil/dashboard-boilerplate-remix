@@ -1,4 +1,5 @@
 import type { MetaFunction } from '@remix-run/node'
+import { HomeModule } from '~/modules'
 
 export const meta: MetaFunction = () => {
     return {
@@ -7,5 +8,5 @@ export const meta: MetaFunction = () => {
 }
 
 export default function IndexRoute() {
-    return <div>Home</div>
+    return <HomeModule />
 }
