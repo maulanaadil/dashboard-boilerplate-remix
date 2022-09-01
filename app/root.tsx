@@ -9,6 +9,8 @@ import {
 import { AnimatePresence } from 'framer-motion'
 
 export default function App() {
+    console.log('test')
+
     return (
         <html lang='en'>
             <head>

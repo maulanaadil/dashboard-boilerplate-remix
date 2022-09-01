@@ -1,5 +1,4 @@
 import { css } from '@emotion/css'
-import { color } from '~/styles'
 
 export const sFakeBooksLogoContainer = css`
     display: flex;
